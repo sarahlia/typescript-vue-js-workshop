@@ -247,35 +247,7 @@ export default Vue.extend({
 We know that we are going to pass in a prop for the card data, so let's set that up. We know what the data structure for the pack is, based on our hard-coded example. 
 
 ##### *`Array of 5 Cards - Reference`*
-``` javascript
-[
-    {
-        "rarityOrder": 0,
-        "rarity": "common",
-        "imgURL": "https://i.imgur.com/Ppl525s.png"
-    },
-    {
-        "rarityOrder": 0,
-        "rarity": "common",
-        "imgURL": "https://i.imgur.com/lFmgnFj.png"
-    },
-    {
-        "rarityOrder": 1,
-        "rarity": "uncommon",
-        "imgURL": "https://i.imgur.com/Xl5borx.png"
-    },
-    {
-        "rarityOrder": 2,
-        "rarity": "rare",
-        "imgURL": "https://i.imgur.com/nfXbo4I.png"
-    },
-    {
-        "rarityOrder": 3,
-        "rarity": "ultra-rare",
-        "imgURL": "https://i.imgur.com/CIV2Yhq.png"
-    }
-]
-```
+![image](/tutorial/imgs/card_array.png)
 
 We are dealing primarily with the `rarity` and `imgURL` properties. So, in our `props` we need to specify an object with those two properties.
 
@@ -495,7 +467,7 @@ The serverless functions are pretty easy to implement, but there's a few things 
 
 Example: we already have a serverless function ready in the functions folder called `uploadCards.js`. This is for writing all of our cards to the database to make life easier, it isn't needed for the main app. Netlify will generate an endpoint for this function at `/.netlify/functions/uploadCards`. This will be the pattern for any function we make. *(We'll use this path later in the front-end)*.
 
-Let's start our new serverless function.
+Let's start our new serverless function. Create a new file in the `functions` directory called `getCards.js`.
 
 ##### *`functions/getCards.js`*
 ``` javascript
