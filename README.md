@@ -49,7 +49,7 @@ It doesn't matter if you join our workshop live or you prefer to do at your own 
 
 ## Homework
 
-<img src="https://github.com/datastaxdevs/workshop-vuejs/tutorial/imgs/VueJS_Badge_transparent.png" width="200" align="right" />
+<img src="https://https://github.com/datastaxdevs/workshop-vuejs/blob/main/tutorial/imgs/VueJS_Badge_transparent.png" width="200" align="right" />
 
 Don't forget to complete your upgrade and get your verified skill badge! Finish and submit your homework!
 
