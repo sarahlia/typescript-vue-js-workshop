@@ -127,7 +127,7 @@ The status will change to `Active` when the database is ready, this will only ta
 ## 3. Launch GitPod IDE
 - Click the button to launch the GitPod IDE.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/datastaxdevs/workshop-vuejs/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datastaxdevs/workshop-vuejs/)
 
 [🏠 Back to Table of Contents](#table-of-contents)
 
