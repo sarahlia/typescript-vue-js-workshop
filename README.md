@@ -235,7 +235,7 @@ In the `<script>` section:
 
 ##### *`components/HootCard.vue - <script>`*
 ``` html
-<script>
+<script lang="ts">
 import Vue from 'vue';
 
 export default Vue.extend({
@@ -252,7 +252,8 @@ We know that we are going to pass in a prop for the card data, so let's set that
 We are dealing primarily with the `rarity` and `imgURL` properties. So, in our `props` we need to specify an object with those two properties.
 
 ##### *`components/HootCard.vue - <script>`*
-``` javascript
+``` html
+<script lang="ts">
 import Vue from 'vue';
 
 export default Vue.extend({
@@ -268,12 +269,14 @@ export default Vue.extend({
         }
     }
 })
+</script>
 ```
 
 Now we need to return those `props` as `data` values so our template can use them.
 
 ##### *`components/HootCard.vue - <script>`*
-``` javascript
+``` html
+<script lang="ts">
 import Vue from 'vue';
 
 export default Vue.extend({
@@ -295,6 +298,7 @@ export default Vue.extend({
         }
     }
 })
+</script>
 ```
 
 And that's it for our logic! Now, the card image will be dynamic based on the card that's passed in, as well as the style. Speaking of which let's get that custom css in here.
@@ -386,7 +390,7 @@ It should look something like this.
 ASTRA_DB_ADMIN_TOKEN="<TOKEN>"
 ASTRA_DB_APPLICATION_TOKEN="<TOKEN>"
 ASTRA_DB_ID="<ID>"
-ASTRA_DB_REGION="us-east1"
+ASTRA_DB_REGION="<REGION>"
 ASTRA_DB_KEYSPACE="vue_keyspace"
 ASTRA_GRAPHQL_ENDPOINT="<URL>"
 ```
@@ -596,7 +600,7 @@ const res = await collection.find({});
 Then we can use our `packBuilder` function to randomly select 5 cards, and create a pack - an array of 5 cards.
 
 ``` javascript
-let pack = packBuilder(Object.keys(res).map((key) => res[key]));
+let pack = packBuilder(Object.keys(res.data).map((key) => res.data[key]));
 ```
 
 Whoa. Stop. What is `Object.keys(res).map((key) => res[key])`??
@@ -627,7 +631,7 @@ exports.handler = async function () {
 
     try {
         const res = await collection.find({});
-        let pack = packBuilder(Object.keys(res).map((key) => res[key]));
+        let pack = packBuilder(Object.keys(res.data).map((key) => res.data[key]));
         
         return {
             statusCode: 200,
@@ -675,7 +679,7 @@ Notice the path to the endpoint - `'/.netlify/functions/getCards'`. Same as ment
 So here's what `index.vue` should look like now. (`<script>` section)
 
 ##### *`pages/index.vue`*
-``` javascript
+``` html
 <script lang="ts">
 import Vue from 'vue';
 import axios from 'axios';
