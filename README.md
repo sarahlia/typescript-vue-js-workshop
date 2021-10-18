@@ -50,7 +50,7 @@ It doesn't matter if you join our workshop live or you prefer to do at your own 
 ## Homework
 
 ``` diff
-- Edit Homework section
+- Edit Homework URL
 ```
 
 <img src="https://user-images.githubusercontent.com/23346205/124651231-a7e99400-de68-11eb-9f3f-ab6b88da0cdf.png?raw=true" width="200" align="right" />
@@ -58,8 +58,7 @@ It doesn't matter if you join our workshop live or you prefer to do at your own 
 Don't forget to complete your upgrade and get your verified skill badge! Finish and submit your homework!
 
 1. Complete the practice steps from this repository as described below.
-2. Create a **React** app from scratch using NPX. Follow [these](https://github.com/datastaxdevs/react-basics) instructions. **Take a screenshot of your final working app**.
-3. Launch the TODO starter app, connect it to the database, and display your changes from the database. **Take a screenshot of your TODO app with your unique entries**.
+2. Launch the **Vue** app and connect it to the database. **Take a screenshot of your HOOT app with your unique URL**.
 4. Submit your homework [here](https://github.com/datastaxdevs/appdev-week1-todolist/issues/new?assignees=HadesArchitect%2C+SonicDMG%2C+RyanWelford&labels=homework%2C+wait+for+review&template=homework-assignment.md&title=%5BHW%5D+%3CNAME%3E). Note:
 _never share your Astra DB tokens!_
 
