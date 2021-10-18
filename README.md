@@ -355,9 +355,7 @@ npm run dev
 
 A browser window should open automatically.
 
-``` diff
-- Add Image
-```
+![image](/tutorial/imgs/firstRun.png)
 
 Now we have an interactive experience opening a pack of cards. The cards are always the same though, we'll need to connect our app to our database and get serverless functions up and running to make it more dynamic.
 
