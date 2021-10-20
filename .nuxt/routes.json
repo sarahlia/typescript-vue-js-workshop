@@ -2,7 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/ryanwelford/Documents/Projects/VueJS/vuejs-hoot/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/Users/sarahlianainggolan/Projects/workshop-vuejs/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_4fd96a0c"
   }
 ]
