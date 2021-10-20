@@ -50,6 +50,7 @@ Don't forget to complete your upgrade and get your verified skill badge! Finish 
 
 1. Complete the practice steps from this repository as described below.
 2. Launch the **Vue** app and connect it to the database. **Take a screenshot of your HOOT app with your unique URL**.
+3. [OPTIONAL] Edit the size of the pack to open more cards each time!
 4. Submit your homework [here](https://github.com/datastaxdevs/workshop-vuejs/issues/new?assignees=SonicDMG%2C+RyanWelford&labels=homework&template=homework-assignment.md&title=%5BHW%5D+%3CNAME%3E). Note:
 _never share your Astra DB tokens!_
 
