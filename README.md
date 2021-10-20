@@ -2,7 +2,7 @@
 # Build an App with VueJS and Typescript 📒
 *15 minutes, Beginner*
 
-This is an example VueJS application using a [DataStax Astra](https://astra.dev/astra-10-20) free tier database.
+This is an example VueJS application using a [DataStax Astra](https://astra.dev/10-20) free tier database.
 <!--- ENDEXCLUDE --->
 
 
