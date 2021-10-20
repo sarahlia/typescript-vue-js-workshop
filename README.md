@@ -701,6 +701,6 @@ Let's launch our site now, using the Netlify CLI to provide our new serverless f
 netlify dev
 ```
 
-You may not be getting any cards yet. That's because we haven't uploaded any to the database! Remember the other function though? We can manually run that function by running `gp preview "$(gp url 8888)/.netlify/functions/uploadCards"` in a new terminal, then refresh the app!
+You may not be getting any cards yet. That's because we haven't uploaded any to the database! Remember the other function though? We can manually run that function by running `curl $(gp url 8888)/.netlify/functions/uploadCards` in a new terminal, then refresh the app!
 
 
