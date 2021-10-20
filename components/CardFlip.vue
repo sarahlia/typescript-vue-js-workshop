@@ -21,7 +21,7 @@ export default Vue.extend({
             default () {
                 return {
                     rarity: 'none',
-                    igmURL: ''
+                    imgURL: ''
                 }
             }
         }
