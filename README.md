@@ -71,7 +71,7 @@ That's it, you are done! Expect an email next week!
 
 
 ### Demo
-- [App Demo](www.hootcards.io)
+- [App Demo](http://www.hootcards.io)
 
 ## 1. Login or Register to AstraDB and create database
 **`ASTRADB`** is the simplest way to run Cassandra with zero operations at all - just push the button and get your cluster. No credit card required, $25.00 USD credit every month, roughly 5M writes, 30M reads, 40GB storage monthly - sufficient to run small production workloads.  
