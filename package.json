@@ -11,7 +11,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@astrajs/collections": "^0.3.0",
+    "@astrajs/collections": "^0.3.1",
     "@nuxtjs/axios": "^5.13.6",
     "@types/lodash": "^4.14.173",
     "core-js": "^3.15.1",
