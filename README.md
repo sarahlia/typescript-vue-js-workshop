@@ -331,7 +331,7 @@ And that's it for our logic! Now, the card image will be dynamic based on the ca
 
 And that's it! We've just created a custom Vue component to dynamically display our cards! Let's test it out! 
 
-First we need to add the component to `CardFlip.vue`
+First we need to add the component to `CardFlip.vue`. Replace the `<!-- CARD COMPONENT HERE -->` line with this:
 
 ``` javascript
 <HootCard :card="card" />   
@@ -372,7 +372,7 @@ npm exec astra-setup vue_workshop_db vue_keyspace
 
 This tool will create ***environment variables*** for you in a new file: `.env`. These variables are used for authenticating and connecting to your Astra DB. This includes your authentication token, so these variables are only stored locally and should never be stored in a public facing repository.
 
-It should look something like this.
+It should look something like this. You can run `cat /workspace/workshop-vuejs/.env` to take a look at yours.
 
 ##### *`.env`*
 ```
