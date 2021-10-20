@@ -45,7 +45,7 @@ function pickRarity() {
 function packBuilder(sourceDeck) {
     let deck = [];
 
-    for (let i=0; i<5; i++) {
+    for (let i=0; i<8; i++) {
         let card = sourceDeck[_.random(11)];
         let rarity = pickRarity();
 
