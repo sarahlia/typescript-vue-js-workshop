@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/sarahlianainggolan/Projects/workshop-vuejs/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_4fd96a0c"
+    "chunkName": "pages/index"
   }
 ]

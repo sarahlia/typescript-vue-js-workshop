@@ -5,7 +5,8 @@
                 <img class="contents" src="https://i.imgur.com/pfr8bB3.png" />
             </div>
             <div class="card front">
-                <!-- CARD COMPONENT HERE -->          
+                <!-- CARD COMPONENT HERE -->  
+                <HootCard :card="card" />         
             </div>
         </div>
     </div>
