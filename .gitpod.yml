@@ -4,7 +4,7 @@ tasks:
     command: gp open README.md
   - name: VueJS-Setup
     before: |
-      nvm install node
+      nvm install 16.11.1
       npm install -g npm@latest
       npm install astra-setup
       npm install -g netlify-cli
