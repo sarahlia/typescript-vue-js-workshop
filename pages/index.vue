@@ -28,39 +28,16 @@
 
 <script lang="ts">
 import Vue from 'vue';
-
+import axios from 'axios';
 
 export default Vue.extend({
   data() {
     return {
-      cards: [
-        {
-          "rarityOrder": 0,
-          "rarity": "common",
-          "imgURL": "https://i.imgur.com/Ppl525s.png"
-        },
-        {
-          "rarityOrder": 0,
-          "rarity": "common",
-          "imgURL": "https://i.imgur.com/lFmgnFj.png"
-        },
-        {
-          "rarityOrder": 1,
-          "rarity": "uncommon",
-          "imgURL": "https://i.imgur.com/Xl5borx.png"
-        },
-        {
-          "rarityOrder": 2,
-          "rarity": "rare",
-          "imgURL": "https://i.imgur.com/nfXbo4I.png"
-        },
-        {
-          "rarityOrder": 3,
-          "rarity": "ultra-rare",
-          "imgURL": "https://i.imgur.com/CIV2Yhq.png"
-        }
-      ],
+      cards: [],
     }
+  },
+  async fetch() {
+    this.cards = await axios.get('/.netlify/functions/getCards').then(res => res.data);
   },
   methods: {
     reloadPage() {
