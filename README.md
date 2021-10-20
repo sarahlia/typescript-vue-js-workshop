@@ -2,7 +2,7 @@
 # Build an App with VueJS and Typescript 📒
 *15 minutes, Beginner*
 
-This is an example VueJS application using a [DataStax Astra](https://astra.new/astra-10-20) free tier database.
+This is an example VueJS application using a [DataStax Astra](https://astra.dev/astra-10-20) free tier database.
 <!--- ENDEXCLUDE --->
 
 
@@ -80,7 +80,7 @@ That's it, you are done! Expect an email next week!
 
 _Make sure to chose a password with minimum 8 characters, containing upper and lowercase letters, at least one number and special character_
 
-<a href="https://dtsx.io/appdev-7-7"><img src="https://github.com/datastaxdevs/workshop-graphql-netflix/blob/main/img/create_astra_db.png?raw=true" /></a>
+<a href="https://astra.dev/10-20"><img src="https://github.com/datastaxdevs/workshop-graphql-netflix/blob/main/img/create_astra_db.png?raw=true" /></a>
 - <details><summary>Show me!</summary>
     <img src="https://github.com/datastaxdevs/workshop-spring-stargate/raw/main/images/tutorials/astra-create-db.gif?raw=true" />
 </details>
